@@ -32,7 +32,7 @@ bot.start((ctx) => {
       const liste_continent = ["Afrique", "Europe", "Amerique", "Asie", "Antartique", "Océanie"]
       const continent = callbackData.split(":")[1]
       const index = liste_continent.indexOf(continent)
-      console.log(index)
+      
       ctx.reply(`${index+1}. ${continent}\n
       ${LIENS_CONTINENTS[index]}`, {
         reply_markup: {
@@ -106,105 +106,82 @@ bot.start((ctx) => {
 
 bot.launch();
 
-const LIENS_CONTINENTS = [`1.1 https://www.facebook.com/groups/1484720455134038/
+const LIENS_CONTINENTS = [
 
+  //AFRIQUE
+`
+1.1 https://www.facebook.com/groups/1484720455134038/
 1.2 https://www.facebook.com/groups/470713840331/
-
 1.3 https://www.facebook.com/groups/325611895901672/
-
 1.4 https://www.facebook.com/groups/africainsdefrance/
-
 1.5 https://www.facebook.com/groups/1636255639953941/
-
 1.6 https://www.facebook.com/groups/burkina2015/
-
 1.7 https://www.facebook.com/groups/lajeunesseafricainedaujourdhui/
-
 1.8 https://www.facebook.com/groups/761824107211744/
-
 1.9 https://www.facebook.com/groups/alphablondy30ans/
-
 1.10 https://www.facebook.com/groups/581316375342371/
-
 1.11 https://www.facebook.com/groups/923279308023891/
-
 1.12 https://www.facebook.com/groups/473512369895138/
-
 1.13 https://www.facebook.com/groups/841879096310309/
-
 1.14 https://www.facebook.com/groups/awa.gueye.3975/
-
 1.15 https://www.facebook.com/groups/516591652103741/
-
 1.16 https://www.facebook.com/groups/305077060233603/
-
 1.17 https://www.facebook.com/groups/1344870302920978/
-
 1.18 https://www.facebook.com/groups/jadorelacuisineafricaine.jaipasunemeilleu/
-
 1.19 https://www.facebook.com/groups/640911907727288/
-
 1.20 https://www.facebook.com/groups/403183196933093/
-
 1.21 https://www.facebook.com/groups/233371411847843/
-
 1.22 https://www.facebook.com/groups/571894844871121/
-
 1.23 https://www.facebook.com/groups/203487110530330/
-
 1.24 https://www.facebook.com/groups/2810026952655422/
-
 1.25 https://www.facebook.com/groups/442784229929272/
-
 1.26 https://www.facebook.com/groups/1355332437933485/
-
 1.27 https://www.facebook.com/groups/2374995242757655/
-
 1.28 https://www.facebook.com/groups/325296558108382/
-
 1.29 https://www.facebook.com/groups/1012897762127101/
-
 1.30 https://www.facebook.com/groups/546075009333314/
-
 1.31 https://www.facebook.com/groups/168359318816645/
-
 1.32 https://www.facebook.com/groups/251987678516651/
-
 1.33 https://www.facebook.com/groups/973920189762711/
-
 1.34 https://www.facebook.com/groups/205476009552286/
-
 1.35 https://www.facebook.com/groups/3887184978062718/
-
 1.36 https://www.facebook.com/groups/426619500717580/
-
 1.37 https://www.facebook.com/groups/374761301163487/
-
 1.38 https://www.facebook.com/groups/1901906896518736/
-
 1.39 https://www.facebook.com/groups/1819734488418586/
-
 1.40 https://www.facebook.com/groups/143714316312000/
-
 1.41 https://www.facebook.com/groups/1300052023531579/
-
 1.42 https://www.facebook.com/groups/2221335917969424/
-
 1.43 https://www.facebook.com/groups/172872183356456/
-
 1.44 https://www.facebook.com/groups/373459089493184/
-
 1.45 https://www.facebook.com/groups/2959596041022947/
-
 1.46 https://www.facebook.com/groups/1900965146761949/
-
 1.47 https://www.facebook.com/groups/558510515068551/
-
 1.48 https://www.facebook.com/groups/1486076028212635/
-
 1.49 https://www.facebook.com/groups/1158220641346060/
-
 1.50 https://www.facebook.com/groups/1108627305864074/
+1.51 https://www.facebook.com/groups/773818502738021/
+1.52 https://www.facebook.com/groups/coiffureafricaine/
+1.53 https://www.facebook.com/groups/digitalcommunitygroup/
+1.54 https://www.facebook.com/groups/legroupefacebookwhatsappamitiamourfra/
+1.55 https://www.facebook.com/groups/165375660683574/
+1.56 https://www.facebook.com/groups/237455143345902/
+1.57 https://www.facebook.com/groups/884370691677513/
+1.58 https://www.facebook.com/groups/destockantiquedesign/
+1.59 https://www.facebook.com/groups/601271146693623/
+1.60 https://www.facebook.com/groups/1698291773809053/
+1.61 https://www.facebook.com/groups/442431372541122/
+1.62 https://www.facebook.com/groups/afriqsolidariteemploiformat/
+1.63 https://www.facebook.com/groups/562636791082705/
+1.64 https://www.facebook.com/groups/1027590327604244/
+1.65 https://www.facebook.com/groups/2788298878100832/
+1.66 https://www.facebook.com/groups/386386361534688/
+1.67 https://www.facebook.com/groups/405364750239500/
+1.68 https://www.facebook.com/groups/279434073057124/
+1.69 https://www.facebook.com/groups/CLUBLEDEBATPANAFRICAIN
+1.68 https://www.facebook.com/groups/279434073057124/
+1.69 https://www.facebook.com/groups/CLUBLEDEBATPANAFRICAIN/
+1.70 https://www.facebook.com/groups/histoiredelafrique/
 `,
 
 //EUROPE
