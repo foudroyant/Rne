@@ -25,7 +25,7 @@ bot.start((ctx) => {
 
   //Les actions à faire
   bot.on("callback_query", (ctx) => {
-    const callbackData = ctx.callbackQuery.data;
+    const callbackData = ctx.callbackQuery.data; commit
     ctx.deleteMessage()
 
     if(callbackData.startsWith("lien_continent")){
@@ -72,7 +72,7 @@ bot.start((ctx) => {
       reply_markup: {
         inline_keyboard: [
           [{ text: "1. Afrique", callback_data: "lien_continent:Afrique" }, { text: "2. Europe", callback_data: "lien_continent:Europe" }],
-            [{ text: "3. Amérique du nord/sud", callback_data: "lien_continent:Amérique" },{ text: "4. Asie", callback_data: "lien_continent:Asie" }],
+            [{ text: "3. Amérique du nord/sud", callback_data: "lien_continent:Amerique" },{ text: "4. Asie", callback_data: "lien_continent:Asie" }],
           [{ text: "5. Antartique", callback_data: "lien_continent:Antartique" }, { text: "6. Océanie", callback_data: "lien_continent:Océanie" }],
             [{text:"Retour", callback_data: "langue"}]
         ]
