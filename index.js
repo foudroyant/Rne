@@ -25,7 +25,7 @@ bot.start((ctx) => {
 
   //Les actions à faire
   bot.on("callback_query", (ctx) => {
-    const callbackData = ctx.callbackQuery.data; commit
+    const callbackData = ctx.callbackQuery.data;
     ctx.deleteMessage()
 
     if(callbackData.startsWith("lien_continent")){
