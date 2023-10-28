@@ -14,7 +14,7 @@ bot.start((ctx) => {
     ctx.reply("Bienvenue sur RNE", {
       reply_markup: {
         inline_keyboard: [
-          [{ text: "Francophone", callback_data: "langue" }, { text: "Anglophone", callback_data: "langue" }],
+          [{ text: "Francophone 🇫🇷", callback_data: "langue" }, { text: "Anglophone", callback_data: "langue" }],
             [{ text: "Hispanohablante", callback_data: "langue" },{ text: "Lusofonos", callback_data: "langue" }],
             //[{text:"QUITTER", callback_data: "QUITTER"}]
         ]
